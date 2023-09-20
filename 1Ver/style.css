@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: px solid red;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+    text-decoration: none;
+}
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    background: linear-gradient(#ffffffc4,#3cff0069);
+}
+.contenido1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 251, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.caja1{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+.tex-app-dos{
+    width: auto;
+    display: none;
+}
+.tex-app{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.tex{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: column;
+}
+h1{
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+.caja2{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-bt{
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bt{
+    width: auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.qr-img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.img-qr-play{
+    width: 150px;
+}
+.img-cel{
+    width: 400px;
+    height: auto;
+  
+}
+button{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+    border: none;
+    background-color: rgb(35, 206, 19);
+    align-items: center;
+    border-radius: 20px;
+    color: #fff;
+}
+@media (max-width: 900px){
+    body{
+        height: 1000px;
+    }
+}
+@media (max-width: 600px){
+    body{
+        height: 1600px;
+    }
+    .qr-bt{
+        flex-direction: column-reverse;
+        height: 400px;
+    }
+    .img-cel{
+        width: 300px;
+        height: auto;
+    }
+    .tex{
+        width: 300px;
+    }
+    .tex-app{
+        display: none;
+    }
+    .tex-app-dos{
+        display: block;
+    }
+    h1{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+}

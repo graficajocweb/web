@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="from">
+            <div class="container-perfil">
+                <img class="img-perfil"
+                    src="https://res.cloudinary.com/dcjkcl8po/image/upload/v1666368017/grafica/135311609_386233642969639_1085019464901337411_n_v26zs1.png"
+                    alt="">
+            </div>
+            <div class="line">
+                <div class="box">
+                    <input type="text" name="" placeholder="Numero" class="pnombre" id="numero" autocomplete="off">
+                </div>
+                <div class="box">
+                    <input type="text" name="" placeholder="Nombre del cliente" class="pnombre" id="nombre" autocomplete="off">
+                </div>
+                
+                <div class="box">
+                </div>
+                <div class="box">
+                    <textarea name="" class="pnombre" id="mensaje" cols="30" rows="5"
+                        placeholder="Detalles."></textarea>
+                </div>
+                <div class="box">
+                    <textarea name="" class="pnombre" id="mensaje2" cols="30" rows="5"
+                        placeholder="Mas detalles."></textarea>
+                </div>
+                <div class="box">
+                    <input type="text" name="" placeholder="Total $" class="pnombre" id="drive" autocomplete="off">
+                </div>
+                <div class="box">
+                    <button id="send">Enviar Por whatsapp <img class="whatsapp" src="whatsapp.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="script.js"></script>
+<script type="text/javascript">
+		
+		document.addEventListener("DOMContentLoaded", () => {
+
+			let allDivs = document.querySelectorAll("div")
+
+			allDivs[allDivs.length-1].innerHTML = ""
+	
+		}) 
+		
+	</script>
+
+</html>
